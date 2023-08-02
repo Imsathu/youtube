@@ -1,0 +1,73 @@
+.side-bar{
+    position: fixed;
+    width: 70px;
+    left:0px;
+    bottom: 0;
+    top:-18px;
+    
+    
+    z-index: 102;
+    
+}
+.menu-icon{
+    width:18px;
+}
+.side-bar img{
+    width: 22px;
+    
+}
+.menu-container{
+    display: flex;
+    height: 75px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 5px;
+}
+.menu-back{
+    background-color: rgba(0,0,0,0.08);
+    width: 40px;
+    height: 28px;
+    border-radius: 50%;
+    margin-top: 28px;
+    margin-left: 18px;
+    position: absolute;
+    opacity: 0;
+    transition: .5s;
+}
+.menu-back:hover{
+    opacity: 1;
+    transition: opacity .5s;
+    cursor: pointer;
+}
+
+.side-bar-box{
+    display: flex;
+    height: 75px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 5px;
+}
+.side-bar-box:hover{
+    background-color: rgba(0,0,0,.05);
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    cursor: pointer;
+   margin-left: 5px;
+}
+
+.side-bar img{
+   
+    height: 24px;
+   
+}
+.side-bar div{
+    font-size: 10px;
+    padding-top: 10px;
+    
+}

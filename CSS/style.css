@@ -1,0 +1,82 @@
+
+.thumbnail{
+    width:100%;
+    border-radius: 14px;
+    transition: .1s;
+}
+.thumbnail:hover{
+    width:100%;
+    border-radius: 0px;
+    cursor: pointer;
+    transition:.1s;
+    
+}
+.thumb{
+   position: relative;
+}
+
+.title-text{
+           
+           
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    
+   }
+  
+   
+    .channel-status,
+    .channel-name{
+    
+    
+    color: #606060;
+   line-height: 5px;
+    font-family: Roboto;
+    font-size: 12px;
+    
+    
+    
+   }
+   .channel-profile{
+    display: inline-block;
+    width: 45px;
+    vertical-align: top;
+   }
+   .channel-text{
+    display: inline-block;
+    width: 220px;
+     
+   }
+   .profile-picture{
+   
+   width: 35px;
+   vertical-align: top;
+   border-radius: 25px;
+   margin-top: 15px;
+   
+    }
+    
+    .video-grid{
+        padding-top: 10px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        column-gap: 15px;
+        row-gap: 20px;
+        
+    }
+   
+    .time{
+        font-size: 12px;
+        font-weight: 500;
+        background-color: black;
+        color: white;
+        position: absolute;
+        bottom: 11px;
+        right: 7px;
+        padding-left: 4px;
+        padding-right: 4px;
+        padding-top: 2px;
+        padding-bottom: 2px;
+        border-radius: 2px;
+    }
